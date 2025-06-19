@@ -206,3 +206,31 @@ body.dark .pagination-grid button {
 .hidden {
   display: none;
 }
+
+#lockScreen {
+  max-width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#lockScreen input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#lockScreen button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #217a21;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
